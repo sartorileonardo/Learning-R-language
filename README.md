@@ -55,6 +55,8 @@ The full list of language functions is available at: https://stat.ethz.ch/R-manu
 # Help
 For help on some standard library or function, simply use the "?" before the function, example:
 > ?sort()
+To search help:
+> help.search(“anything”)
 
 Result:
 Description
@@ -231,18 +233,39 @@ To display the first line of a dataframe:
 To display the first column of a dataframe:
 > dataframe[,1]
 
+To remove one variable or all lines of five column:
+> dataframe[,-5]
+
+To remove one variable or all lines of five column:
+> dataframe[,5]
+
 To alter the variable "rent" of dataframe "expenses":
 > expenses$rent <- c(200,300,400)
 
 # Pizza Pie
 To create a graph, use the native function pie().
-
-This type of chart is recommended when it is necessary to compare the parts with the whole.
-
 To show a sample developed, acess the file in this directory: 
 <a href="https://github.com/leonardogt4/Learning-R-language/blob/master/PiePizzaExpenses.R">![pie_pizza_expenses](https://user-images.githubusercontent.com/7613528/47034327-71660b00-d14d-11e8-87b5-1a3085fa33ca.PNG)</a>
-
 The code of this pie pizza is available in file: https://github.com/leonardogt4/Learning-R-language/blob/master/PiePizzaExpenses.R
+
+Obs: when you use 10 sectors or less, the pie chart maintains its visual efficiency.
+
+# Logic Operators
+- Equality: ==
+- Different:! =
+- Attribution: = or <-
+- Greater:>
+- Minor: <
+- Greater equal:> =
+- Less than equal: <=
+
+# Decision Structure (if / else)
+Decision structures decide which block of code will be executed from a condition passed as a parameter.
+
+The code snippet below, for example, uses decision structure to evaluate whether a person is of legal age or minor:
+https://github.com/leonardogt4/Learning-R-language/blob/master/sampleDecisionStructureIfElse.R
+
+
 
 
 
