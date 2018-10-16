@@ -135,52 +135,52 @@ To display only the columns in the matrix:
 To change a matrix element:
 > matrix[1,3] <- 90 #alters the element of row 1 and column 3
 
-Para alterar a linha inteira da matriz e todas as suas colunas
-> matrix[2,] <- 10 #altera para 10 toda a linha 2
+To change the entire row of the array and all its columns
+> matrix [2,] <- 10 #alter to 10 the whole line 2
 
-Para remover todos elementos da linha 2 da matriz:
-> matrix[-2,]
+To remove all elements of row 2 from the array:
+> matrix [-2,]
 
-Para remover todos elementos da coluna 2 da matriz:
-> matrix[,-2]
+To remove all elements from column 2 of the array:
+> matrix [, - 2]
 
 # Operation with Matrix
-Para add 4 em todos os elentos de uma matriz:
+To add 4 in all the elentos of an array:
 > matrix + 4
 
-Para multiplicar todos os elementos de uma matrix por 2:
+To multiply all the elements of a matrix by 2:
 > matrix * 2
 
-Para somar 2 matrizes "m1" e "m2" com o mesmo número de linhas e colunas:
+To add 2 arrays "m1" and "m2" with the same number of rows and columns:
 > m1 + m2
 
-Para obter o produto de 2 matrizes "m1" e "m2":
-> m1%*%m2
+To obtain the product of 2 matrices "m1" and "m2":
+> m1% *% m2
 
-Para calcular o determinante de uma matrix:
+To calculate the determinant of a matrix:
 > det(matrix)
 
-Para calcular a diagonal de uma matrix:
+To calculate the diagonal of a matrix:
 > diag(matrix)
 
-Para converter uma matrix em transposta (inverter linhas e colunas):
+To convert a matrix into transpose (invert rows and columns):
 > t(matrix)
 
-Para converter uma matriz em pixels de imagem:
+To convert an array to image pixels:
 > image(matrix)
-#Podemos realizar um teste com a matriz de dados completa instalada por padrão chamada "Volcano", essa matrix contém dados #fictício sobre um vulcão
+#We can perform a test with the complete data matrix installed by default called "Volcano", this matrix contains # dummy data about a volcano
 > image(Volcano)
 Result:
 
-Para visualizarmos os dados de contorno e relevo, utilizamos:
+To visualize the contour and relief data, we use:
 > contour(Volcano)
 Result:
 
-Para visualizarmos em 3D a perspectiva, utilizamos:
-> persp(Volcano)
+To visualize the perspective in 3D, we use:
+persp(matrix)
 Result:
 
-Continue...
+Continues...
 
 
 
