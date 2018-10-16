@@ -234,10 +234,14 @@ To display the first column of a dataframe:
 To alter the variable "rent" of dataframe "expenses":
 > expenses$rent <- c(200,300,400)
 
-#Pizza Pie
+# Pizza Pie
 To create a graph, use the native function pie().
+
+This type of chart is recommended when it is necessary to compare the parts with the whole.
+
 To show a sample developed, acess the file in this directory: 
 <a href="https://github.com/leonardogt4/Learning-R-language/blob/master/PiePizzaExpenses.R">![pie_pizza_expenses](https://user-images.githubusercontent.com/7613528/47034327-71660b00-d14d-11e8-87b5-1a3085fa33ca.PNG)</a>
+
 The code of this pie pizza is available in file: https://github.com/leonardogt4/Learning-R-language/blob/master/PiePizzaExpenses.R
 
 
