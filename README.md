@@ -171,14 +171,17 @@ To convert an array to image pixels:
 #We can perform a test with the complete data matrix installed by default called "Volcano", this matrix contains # dummy data about a volcano
 > image(Volcano)
 Result:
+https://github.com/leonardogt4/Learning-R-language/issues/1#issue-370583857
 
 To visualize the contour and relief data, we use:
 > contour(Volcano)
 Result:
+https://github.com/leonardogt4/Learning-R-language/issues/2#issue-370584226
 
 To visualize the perspective in 3D, we use:
 persp(matrix)
 Result:
+https://github.com/leonardogt4/Learning-R-language/issues/3#issue-370584564
 
 Continues...
 
