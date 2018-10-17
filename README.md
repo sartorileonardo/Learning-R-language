@@ -13,12 +13,20 @@ The R language that is widely used by mathematicians and statisticians is a lang
 6. Integrates with several languages, such as: Java, Python, etc;
 7. Graphics quality.
 
-
 # Coments
 > #My coment
 
 # Hello world
 > print("Hello world!")
+
+# Logic Operators
+- Equality: ==
+- Different:! =
+- Attribution: = or <-
+- Greater:>
+- Minor: <
+- Greater equal:> =
+- Less than equal: <=
 
 # Calculator
 It can be easily used as a calculator, for example:
@@ -245,25 +253,42 @@ To alter the variable "rent" of dataframe "expenses":
 # Pizza Pie
 To create a graph, use the native function pie().
 To show a sample developed, acess the file in this directory: 
-<a href="https://github.com/leonardogt4/Learning-R-language/blob/master/PiePizzaExpenses.R">![pie_pizza_expenses](https://user-images.githubusercontent.com/7613528/47034327-71660b00-d14d-11e8-87b5-1a3085fa33ca.PNG)</a>
-The code of this pie pizza is available in file: https://github.com/leonardogt4/Learning-R-language/blob/master/PiePizzaExpenses.R
+<a href="https://github.com/leonardogt4/Learning-R-language/blob/master/piePizzaExpenses.R">![pie_pizza_expenses](https://user-images.githubusercontent.com/7613528/47057553-a008d380-d197-11e8-8390-49b4ea9d44db.png)</a>
+The code of this pie pizza is available in file: https://github.com/leonardogt4/Learning-R-language/blob/master/piePizzaExpenses.R
 
 Obs: when you use 10 sectors or less, the pie chart maintains its visual efficiency.
 
-# Logic Operators
-- Equality: ==
-- Different:! =
-- Attribution: = or <-
-- Greater:>
-- Minor: <
-- Greater equal:> =
-- Less than equal: <=
+# Bar Chart
+É um gráfico que representa seus valores através de barras que podem estar na horizontal ou vertical, essas barras variam de acordo com os valores passados por parâmetro na função barplot().
+
+They usually indicate quantitative data on different variables, sectors or places regardless of proportion. Generally the quantitative data are in the vertical position, while the qualitative ones are horizontal.
+
+To show a sample developed, acess the file in this directory: 
+<a href="https://github.com/leonardogt4/Learning-R-language/blob/master/chartBarExpenses.R">!![chart_bar_expenses](https://user-images.githubusercontent.com/7613528/47055124-4bac2680-d18c-11e8-95c4-7bc3cf299ae4.png)</a>
+
+The sample code of this graphic is available in:
+https://github.com/leonardogt4/Learning-R-language/blob/master/chartBarExpenses.R
 
 # Decision Structure (if / else)
 Decision structures decide which block of code will be executed from a condition passed as a parameter.
 
 The code snippet below, for example, uses decision structure to evaluate whether a person is of legal age or minor:
 https://github.com/leonardogt4/Learning-R-language/blob/master/sampleDecisionStructureIfElse.R
+
+# Loop For
+Este tipo de loop é utilizado para repetir as instruções de um bloco de código enquanto for satisfeita a condição passada como parâmetro na função for(), possui suporte para três parâmetros, sendo recomendada nos casos em que se conhece o intervalor a percorrer.
+
+The sample code is available in: https://github.com/leonardogt4/Learning-R-language/blob/master/loopWithForToCountAtTen.R
+
+# Loop While
+Este tipo de loop é utilizado para repetir as instruções de um bloco de código enquanto for satisfeita a condição passada como parâmetro na função while(), podendo ser utilizada nos casos em que não se conhece o intervalor a percorrer.
+
+The sample code is available in: https://github.com/leonardogt4/Learning-R-language/blob/master/loopWithWhileToCountAtTen.R
+
+# Loop Repeat
+Este tipo de loop é utilizado para repetir as instruções de um bloco de código até que a condição passada como parâmetro na função repeat() seja satisfeita, executa ao menos uma vez.
+
+The sample code is available in: https://github.com/leonardogt4/Learning-R-language/blob/master/loopWithRepeatToCountAtTen.R
 
 
 
