@@ -13,6 +13,21 @@ The R language that is widely used by mathematicians and statisticians is a lang
 6. Integrates with several languages, such as: Java, Python, etc;
 7. Graphics quality.
 
+# Required Programs
+To use R and your functions, you will need these softwares inatalled:
+- R
+- IDE R Studio (Recomended)
+These softwares and others libs are available in:
+https://www.rstudio.com/
+
+# Install new packagues
+The language has many native packages installed, but if you need new packages to use new functions:
+> install.packages("package_name")
+
+Install new packages to work with XML:
+
+> install.packages("XML")
+
 # Coments
 > #My coment
 
@@ -34,13 +49,6 @@ It can be easily used as a calculator, for example:
 > 10+(2*20)-(2^3) 
 
 Result: 42
-
-# Install new packagues
-> install.packages("package_name")
-
-Install new packages to work with XML:
-
-> install.packages("XML")
 
 # Native Functions
 R has several native functions, some are:
@@ -276,7 +284,7 @@ The code snippet below, for example, uses decision structure to evaluate whether
 https://github.com/leonardogt4/Learning-R-language/blob/master/sampleDecisionStructureIfElse.R
 
 # Loop For
-Este tipo de loop é utilizado para repetir as instruções de um bloco de código enquanto for satisfeita a condição passada como parâmetro na função for(), possui suporte para três parâmetros, sendo recomendada nos casos em que se conhece o intervalor a percorrer.
+This type of loop is used to repeat the instructions of a block of code while satisfying the condition passed as a parameter in the for () function, it has three parameter support and is recommended in cases where the interval to be traversed is known.
 
 The sample code is available in: https://github.com/leonardogt4/Learning-R-language/blob/master/loopWithForToCountAtTen.R
 
@@ -286,9 +294,28 @@ Este tipo de loop é utilizado para repetir as instruções de um bloco de códi
 The sample code is available in: https://github.com/leonardogt4/Learning-R-language/blob/master/loopWithWhileToCountAtTen.R
 
 # Loop Repeat
-Este tipo de loop é utilizado para repetir as instruções de um bloco de código até que a condição passada como parâmetro na função repeat() seja satisfeita, executa ao menos uma vez.
+This type of loop is used to repeat the instructions of a block of code as long as the condition passed as a parameter in the while () function is satisfied, and can be used in cases where the interval to be traveled is not known.
 
 The sample code is available in: https://github.com/leonardogt4/Learning-R-language/blob/master/loopWithRepeatToCountAtTen.R
+
+# Function
+Quando você precisa executar muitas vezes um mesmo procedimento, precisa organizar, modularizar e pretende desenvolver um código de fácil manutenção é recomendado o uso de funções. Para criar novas funçẽs usa-se o comando function().
+
+The sample code is available in: https://github.com/leonardogt4/Learning-R-language/blob/master/newFunctionSum.R
+
+# Conclusion
+R is a lightweight and easy-to-learn language, with which you can create analyzes with little code writing.
+
+I studied R in the courses:
+- https://www.udemy.com/linguagemrdozeroaodominio/
+https://www.tutorialspoint.com/r/r_quick_guide.htm
+
+As I'm constantly learning, as soon as I get to know new applications and do new experiments, I'll be sharing in this directory.
+
+Thank you!
+
+
+
 
 
 
