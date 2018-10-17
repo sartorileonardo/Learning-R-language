@@ -18,6 +18,11 @@ Source:https://dzone.com/articles/which-are-the-popular-languages-for-data-scien
 6. Integrates with several languages, such as: Java, Python, etc;
 7. Graphics quality.
 
+# Who use
+Here are some companies:
+![companies_use_r](https://user-images.githubusercontent.com/7613528/47118099-aef59180-d23c-11e8-8921-07c9ab71beb6.png)
+
+Soure: https://www.quora.com/Is-the-R-programming-language-useful
 
 # Required Programs
 To use R and your functions, you will need these softwares inatalled:
