@@ -8,6 +8,7 @@ The R language that is widely used by mathematicians and statisticians is a lang
 1. Popularity;
 The language more used to Data Analitics/Data Sciente:
 ![use](https://user-images.githubusercontent.com/7613528/47111691-8f556d80-d22a-11e8-8b28-ee6a98c0f160.jpeg)
+
 Source:https://dzone.com/articles/which-are-the-popular-languages-for-data-science
 
 2. Open source;
@@ -87,6 +88,7 @@ Sort (or order) a vector or factor (partially) into ascending or descending orde
 # Random Numbers
 To select 1 random number from 1 to 10:
 > sample (1:10, 1)
+
 The first parameter indicates the interval, the second indicates when numbers are to be selected
 Result: 9
 
@@ -108,14 +110,17 @@ To display the vector of decreasing form:
 > sort(ages, decreasing = TRUE)
 
 To access a position the vector:
-> print(ages[1]) # holds the first position of the vector
+> print(ages[1]) #holds the first position of the vector
+
 Result: 23
 
-> print(ages[1:4]) # from the first to the fourth position of the vector
+> print(ages[1:4]) #from the first to the fourth position of the vector
+
 Result: 28
 
 To display the vector length:
 > print(length)
+
 Result: 4
 
 To change a vector position:
@@ -132,6 +137,7 @@ Suppose we have two vectors called v1 and v2:
 
 To arrange 2 vectors in an array, concatenating in rows:
 > my_matrix <-rbind(v1, v2)
+
 Result:
    [, 1] [, 2] [, 3] [, 4]
 v1 10 35 63 1
@@ -139,6 +145,7 @@ v2 20 12 90 76
 
 To arrange 2 vectors in an array by concatenating columns:
 > my_matrix <-cbind (v1, v2)
+
 Result:
      v1 v2
 [1,] 10 20
@@ -148,11 +155,13 @@ Result:
 
 To display the size of an array:
 > dim(my_matrix) #Returns the number of rows and columns
+
 Result:
 2 4 # 2 rows and 4 columns, whereas the array was created with rbind
 
 To create an array that contains only zero numbers with 2 rows and 3 columns:
 > matrix(0,2,3)
+
 Result:
      [,1] [,2] [,3]
 [1,]    0    0    0
@@ -206,16 +215,19 @@ To convert an array to image pixels:
 
 We can perform a test with the complete data matrix installed by default called "Volcano", this matrix contains # dummy data about a volcano
 > image(Volcano)
+
 Result:
 ![image_volcano](https://user-images.githubusercontent.com/7613528/47015844-7d89a280-d124-11e8-877a-cd9cf1987471.PNG)
 
 To visualize the contour and relief data, we use:
 > contour(Volcano)
+
 Result:
 ![countour_volcano](https://user-images.githubusercontent.com/7613528/47015902-a4e06f80-d124-11e8-8505-ec69cc42e9e1.PNG)
 
 To visualize the perspective in 3D, we use:
 > persp(matrix)
+
 Result:
 ![persp_volcano](https://user-images.githubusercontent.com/7613528/47015981-d5c0a480-d124-11e8-990f-dad92ac643a3.PNG)
 
@@ -269,7 +281,7 @@ The code snippet below, for example, uses decision structure to evaluate whether
 https://github.com/leonardogt4/Learning-R-language/blob/master/sampleDecisionStructureIfElse.R
 
 # Loop For
-This type of loop is used to repeat the instructions of a block of code while satisfying the condition passed as a parameter in the for () function, it has three parameter support and is recommended in cases where the interval to be traversed is known.
+This type of loop is used to repeat the instructions of a block of code while satisfying the condition passed as a parameter in the for() function, it has three parameter support and is recommended in cases where the interval to be traversed is known.
 
 The sample code is available in: https://github.com/leonardogt4/Learning-R-language/blob/master/loopWithForToCountAtTen.R
 
@@ -279,7 +291,7 @@ Este tipo de loop é utilizado para repetir as instruções de um bloco de códi
 The sample code is available in: https://github.com/leonardogt4/Learning-R-language/blob/master/loopWithWhileToCountAtTen.R
 
 # Loop Repeat
-This type of loop is used to repeat the instructions of a block of code as long as the condition passed as a parameter in the while () function is satisfied, and can be used in cases where the interval to be traveled is not known.
+This type of loop is used to repeat the instructions of a block of code as long as the condition passed as a parameter in the repeat() function is satisfied, and can be used in cases where the interval to be traveled is not known.
 
 The sample code is available in: https://github.com/leonardogt4/Learning-R-language/blob/master/loopWithRepeatToCountAtTen.R
 
