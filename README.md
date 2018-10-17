@@ -6,12 +6,17 @@ The R language that is widely used by mathematicians and statisticians is a lang
 
 # Advantages
 1. Popularity;
+The language more used to Data Analitics/Data Sciente:
+![use](https://user-images.githubusercontent.com/7613528/47111691-8f556d80-d22a-11e8-8b28-ee6a98c0f160.jpeg)
+Source:https://dzone.com/articles/which-are-the-popular-languages-for-data-science
+
 2. Open source;
 3. Ease of learning;
 4. Ease of programming;
 5. Support for machine learning;
 6. Integrates with several languages, such as: Java, Python, etc;
 7. Graphics quality.
+
 
 # Required Programs
 To use R and your functions, you will need these softwares inatalled:
@@ -215,11 +220,10 @@ Result:
 ![persp_volcano](https://user-images.githubusercontent.com/7613528/47015981-d5c0a480-d124-11e8-990f-dad92ac643a3.PNG)
 
 # Array
-Set of elements of the same type and dimension, their manipulation is very similar to vectors.
-
+Set of elements of the same type and dimension, their manipulation is same to vectors.
 
 # Lista
-Set of elements of different types and dimensions, their manipulation is very similar to vectors.
+Set of elements of different types and dimensions, their manipulation is same to vectors.
 
 # Data Frame
 Dataframe is a data structure similar to a worksheet.
@@ -258,25 +262,6 @@ To remove one variable or all lines of five column:
 To alter the variable "rent" of dataframe "expenses":
 > expenses$rent <- c(200,300,400)
 
-# Pizza Pie
-To create a graph, use the native function pie().
-To show a sample developed, acess the file in this directory: 
-<a href="https://github.com/leonardogt4/Learning-R-language/blob/master/piePizzaExpenses.R">![pie_pizza_expenses](https://user-images.githubusercontent.com/7613528/47057553-a008d380-d197-11e8-8390-49b4ea9d44db.png)</a>
-The code of this pie pizza is available in file: https://github.com/leonardogt4/Learning-R-language/blob/master/piePizzaExpenses.R
-
-Obs: when you use 10 sectors or less, the pie chart maintains its visual efficiency.
-
-# Bar Chart
-É um gráfico que representa seus valores através de barras que podem estar na horizontal ou vertical, essas barras variam de acordo com os valores passados por parâmetro na função barplot().
-
-They usually indicate quantitative data on different variables, sectors or places regardless of proportion. Generally the quantitative data are in the vertical position, while the qualitative ones are horizontal.
-
-To show a sample developed, acess the file in this directory: 
-<a href="https://github.com/leonardogt4/Learning-R-language/blob/master/chartBarExpenses.R">!![chart_bar_expenses](https://user-images.githubusercontent.com/7613528/47055124-4bac2680-d18c-11e8-95c4-7bc3cf299ae4.png)</a>
-
-The sample code of this graphic is available in:
-https://github.com/leonardogt4/Learning-R-language/blob/master/chartBarExpenses.R
-
 # Decision Structure (if / else)
 Decision structures decide which block of code will be executed from a condition passed as a parameter.
 
@@ -302,6 +287,27 @@ The sample code is available in: https://github.com/leonardogt4/Learning-R-langu
 Quando você precisa executar muitas vezes um mesmo procedimento, precisa organizar, modularizar e pretende desenvolver um código de fácil manutenção é recomendado o uso de funções. Para criar novas funçẽs usa-se o comando function().
 
 The sample code is available in: https://github.com/leonardogt4/Learning-R-language/blob/master/newFunctionSum.R
+
+# Pizza Chart
+To create a graph, use the native function pie().
+To show a sample developed, acess the file in this directory: 
+<a href="https://github.com/leonardogt4/Learning-R-language/blob/master/piePizzaExpenses.R">![pie_pizza_expenses](https://user-images.githubusercontent.com/7613528/47057553-a008d380-d197-11e8-8390-49b4ea9d44db.png)</a>
+
+The code of this pie pizza is available in file: https://github.com/leonardogt4/Learning-R-language/blob/master/piePizzaExpenses.R
+
+Obs: when you use 10 sectors or less, the pie chart maintains its visual efficiency.
+
+# Bar Chart
+É um gráfico que representa seus valores através de barras que podem estar na horizontal ou vertical, essas barras variam de acordo com os valores passados por parâmetro na função barplot().
+
+They usually indicate quantitative data on different variables, sectors or places regardless of proportion. Generally the quantitative data are in the vertical position, while the qualitative ones are horizontal.
+
+To show a sample developed, acess the file in this directory: 
+<a href="https://github.com/leonardogt4/Learning-R-language/blob/master/chartBarExpenses.R">!![chart_bar_expenses](https://user-images.githubusercontent.com/7613528/47055124-4bac2680-d18c-11e8-95c4-7bc3cf299ae4.png)</a>
+
+The sample code of this graphic is available in:
+https://github.com/leonardogt4/Learning-R-language/blob/master/chartBarExpenses.R
+
 
 # Conclusion
 R is a lightweight and easy-to-learn language, with which you can create analyzes with little code writing.
