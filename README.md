@@ -320,10 +320,18 @@ Obs: when you use 10 sectors or less, the pie chart maintains its visual efficie
 They usually indicate quantitative data on different variables, sectors or places regardless of proportion. Generally the quantitative data are in the vertical position, while the qualitative ones are horizontal.
 
 To show a sample developed, acess the file in this directory: 
-<a href="https://github.com/leonardogt4/Learning-R-language/blob/master/chartBarExpenses.R">!![chart_bar_expenses](https://user-images.githubusercontent.com/7613528/47055124-4bac2680-d18c-11e8-95c4-7bc3cf299ae4.png)</a>
+<a href="https://github.com/leonardogt4/Learning-R-language/blob/master/chartBarExpenses.R">![chart_bar_expenses](https://user-images.githubusercontent.com/7613528/47055124-4bac2680-d18c-11e8-95c4-7bc3cf299ae4.png)</a>
 
 The sample code of this graphic is available in:
 https://github.com/leonardogt4/Learning-R-language/blob/master/chartBarExpenses.R
+
+# Line Chart
+Line graphics are recommended when you wish compare numbers or values per timeline. Compared actions of a company or expenses of the year for example.
+
+<a href="https://github.com/leonardogt4/Learning-R-language/blob/master/chartBarExpenses.R">![chart_line_expenses](https://user-images.githubusercontent.com/7613528/47184749-e24e2400-d301-11e8-8da3-65bebec46ff9.png)</a>
+
+The sample code of this graphic is available in:
+https://github.com/leonardogt4/Learning-R-language/blob/master/chartLineExpenses.R
 
 
 # Conclusion
@@ -331,7 +339,7 @@ R is a lightweight and easy-to-learn language, with which you can create analyze
 
 I studied R in the courses:
 - https://www.udemy.com/linguagemrdozeroaodominio/
-https://www.tutorialspoint.com/r/r_quick_guide.htm
+- https://www.tutorialspoint.com/r/r_quick_guide.htm
 
 As I'm constantly learning, as soon as I get to know new applications and do new experiments, I'll be sharing in this directory.
 
