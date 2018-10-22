@@ -291,7 +291,7 @@ This type of loop is used to repeat the instructions of a block of code while sa
 The sample code is available in: https://github.com/leonardogt4/Learning-R-language/blob/master/loopWithForToCountAtTen.R
 
 # Loop While
-Este tipo de loop é utilizado para repetir as instruções de um bloco de código enquanto for satisfeita a condição passada como parâmetro na função while(), podendo ser utilizada nos casos em que não se conhece o intervalor a percorrer.
+This type of loop is used to repeat the instructions of a block of code as long as the condition passed as a parameter in the while () function is satisfied, and can be used in cases where the interval to be traveled is not known.
 
 The sample code is available in: https://github.com/leonardogt4/Learning-R-language/blob/master/loopWithWhileToCountAtTen.R
 
@@ -301,7 +301,7 @@ This type of loop is used to repeat the instructions of a block of code as long 
 The sample code is available in: https://github.com/leonardogt4/Learning-R-language/blob/master/loopWithRepeatToCountAtTen.R
 
 # Function
-Quando você precisa executar muitas vezes um mesmo procedimento, precisa organizar, modularizar e pretende desenvolver um código de fácil manutenção é recomendado o uso de funções. Para criar novas funçẽs usa-se o comando function().
+When you need to perform the same procedure often, you need to organize, modularize and make a precise administration code, the use of functions is recommended. To create new functions, use the function () command.
 
 The sample code is available in: https://github.com/leonardogt4/Learning-R-language/blob/master/newFunctionSum.R
 
@@ -315,7 +315,7 @@ The code of this pie pizza is available in file: https://github.com/leonardogt4/
 Obs: when you use 10 sectors or less, the pie chart maintains its visual efficiency.
 
 # Bar Chart
-É um gráfico que representa seus valores através de barras que podem estar na horizontal ou vertical, essas barras variam de acordo com os valores passados por parâmetro na função barplot().
+It is a graph that represents its values ​​through bars that can be horizontal or vertical, these bars vary according to the values passed by parameter in the barplot () function.
 
 They usually indicate quantitative data on different variables, sectors or places regardless of proportion. Generally the quantitative data are in the vertical position, while the qualitative ones are horizontal.
 
