@@ -45,6 +45,13 @@ Install new packages to work with XML:
 # Hello world
 > print("Hello world!")
 
+# Data types
+- Integer, example: 1, 2, 3;
+- Numeric, example: 1.1, 1.2, 1.3;
+- Character, example: 'A', 'B', 'C';
+- Logical, example: TRUE or FALSE;
+- Complex, example: 1+5a.
+
 # Logic Operators
 - Equality: ==
 - Different:! =
