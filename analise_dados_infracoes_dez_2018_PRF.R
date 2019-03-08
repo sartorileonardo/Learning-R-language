@@ -15,7 +15,7 @@ download.file("http://www.prf.gov.br/arquivos/index.php/s/RRibshM06CTBnGw/downlo
 unzip("arquivo.zip")
 
 #Criar o dataframe que guardar? os dados do arquivo
-infracoes <- read.csv("2018/dez.csv", header=TRUE, sep=",", encoding="UTF-8")
+infracoes <- read.csv("2018/dez.csv", header=TRUE, sep=",", encoding="latin1")
 
 ### Chama as fun??es que examinam o dataframe
 dim(infracoes)
@@ -77,5 +77,3 @@ analise_qtd_rodovias_regiao("pizza")
 
 #Escrevendo arquivo de saida da analise
 write.table(sort(table(infracoes$uf_infracao), decreasing = TRUE), "analise.txt")
-
-
