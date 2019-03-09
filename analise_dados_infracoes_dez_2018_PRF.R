@@ -8,6 +8,8 @@
 #identifica o diretorio de trabalho (workspace)
 getwd()
 
+setwd("/home/leo/Downloads")
+
 #Download do arquivo original
 download.file("http://www.prf.gov.br/arquivos/index.php/s/RRibshM06CTBnGw/download",destfile="arquivo.zip",method="libcurl")
 
@@ -63,6 +65,10 @@ analise_qtd_rodovias_regiao <- function(tipoGrafico){
   }
 }
 
+analise_top_five_infracoes <- function(numero_top){
+  pie(summary(infracoes$descricao_abreviada, maxsum = numero_top))
+}
+
 #Chama a funcao que compara via tabela as ocorrencias entre os estados
 analise_tabela_qtd_por_uf()
 
@@ -75,5 +81,10 @@ analise_qtd_regiao_sul("pizza")
 #Chama a funcao que compara as ocorrencias entre as principais rodovias do estado
 analise_qtd_rodovias_regiao("pizza")
 
+#Chama a funcao analise TOP 5 infracoes
+analise_top_five_infracoes(5)
+
 #Escrevendo arquivo de saida da analise
 write.table(sort(table(infracoes$uf_infracao), decreasing = TRUE), "analise.txt")
+
+
